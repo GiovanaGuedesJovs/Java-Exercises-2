@@ -9,7 +9,7 @@ public class Main {
 
         String file = "arquivo.txt";
         
-        System.out.println("\nLeitor em Buff para ler o arquivo linha por linha em Java:\n");
+        System.out.println("\nBufferedReader para ler o arquivo linha por linha em Java:\n");
 
         try(BufferedReader buffered = new BufferedReader(new FileReader(file))){ 
             String linha;
